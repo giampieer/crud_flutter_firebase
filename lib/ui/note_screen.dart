@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
-
 import 'package:crud_flutter_firebase/model/note.dart';
 
 class NoteScreen extends StatefulWidget {
@@ -28,7 +27,7 @@ class _NoteScreenState extends State<NoteScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Note')),
+      appBar: AppBar(title: Text('REGISTRAR / MODIFICAR')),
       body: Container(
         margin: EdgeInsets.all(15.0),
         alignment: Alignment.center,
@@ -36,16 +35,16 @@ class _NoteScreenState extends State<NoteScreen> {
           children: <Widget>[
             TextField(
               controller: _titleController,
-              decoration: InputDecoration(labelText: 'Title'),
+              decoration: InputDecoration(labelText: 'Titulo'),
             ),
             Padding(padding: new EdgeInsets.all(5.0)),
             TextField(
               controller: _descriptionController,
-              decoration: InputDecoration(labelText: 'Description'),
+              decoration: InputDecoration(labelText: 'Descripcion'),
             ),
             Padding(padding: new EdgeInsets.all(5.0)),
             RaisedButton(
-              child: (widget.note.id != null) ? Text('Update') : Text('Add'),
+              child: (widget.note.id != null) ? Text('Modificar') : Text('Agregar'),
               onPressed: () {
                 if (widget.note.id != null) {
                   notesReference.child(widget.note.id).set({

@@ -1,8 +1,6 @@
 import 'dart:async';
 import 'package:firebase_database/firebase_database.dart';
-
 import 'package:flutter/material.dart';
-
 import 'package:crud_flutter_firebase/model/note.dart';
 import 'package:crud_flutter_firebase/ui/note_screen.dart';
 
@@ -38,10 +36,10 @@ class _ListViewNoteState extends State<ListViewNote> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'grokonez Firebase DB Demo',
+      title: 'APP CRUD',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('grokonez Firebase DB Demo'),
+          title: Text('APP CRUD'),
           centerTitle: true,
           backgroundColor: Colors.blue,
         ),
