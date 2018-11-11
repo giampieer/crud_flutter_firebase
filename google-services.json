@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "243949067915",
+    "firebase_url": "https://mobile-giampieer.firebaseio.com",
+    "project_id": "mobile-giampieer",
+    "storage_bucket": "mobile-giampieer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243949067915:android:37b15137627e626f",
+        "android_client_info": {
+          "package_name": "crudflutterfirebase.com.crudflutterfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243949067915-v9s42ludocbi2q7psp1adbccvr63dcg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy31f6KG6zh_OAxtFZyqguM8rA2cLYU5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
